@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color : #FFFFFF; 
+	padding-left: 12em;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11pt;
+	line-height:14pt;
+	margin:0;
+}
+
+
+p {
+	padding-left: 20px;
+     }
+
+h1 {
+   font: 12pt/20pt Tahoma;
+   text-align: center;
+   margin-top: 2px;
+   padding-left: 20px;
+   color: #7D775C;
+   }
+
+h2 {
+   font: 12pt/18pt georgia;
+   font-weight: bold;
+   margin-top: 0px;
+   text-align: center;
+  }
+
+h3 { 
+   font: italic normal;
+   letter-spacing: 1px;
+   margin-bottom: 0px;
+   padding-left: 20px;
+   color: #7D775C;
+   <!text-align: left;>;
+  }
+
+h4 {
+   font: 8pt georgia italic;
+   }
+
+l {
+   text-align: center;
+   color: #B7A5DF;
+}
+
+li{	
+	list-style-type:none;
+}
+
+ul li a:link, ul li a:visited, ul li a:active, ul li a:hover {
+	font-weight: bold;
+	text-decoration: none;
+   }
+
+
+ul li a:hover {
+	color: #000080;
+   }
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #990000;}
+
+a:visited {
+   text-decoration: underline;
+   color: #990000;}
+
+a:active {
+   text-decoration: none;
+   color: #990000;}
+
+a:hover {
+   text-decoration: underline;
+   color: #FF0000}
+
+
+
+#container {
+  background-color : #FFFFFF; 
+   display: block;
+   position: relative;
+   width: 85%;
+   height: auto;
+   top: 0px;
+   right:5%;
+   left: 5%;
+   margin-top: -11px;
+   margin-bottom: 0em;
+}
+
+.Vert{
+ 	color:#458B74;
+}
+.Vert h2{
+ 	color:#458B74;
+}
+
+
+/* Footer*/
+
+#footer {
+    position: relative;
+    padding: 0;
+    margin: 0;
+   top: 8em;
+    left: 0px;
+   font: georgia;
+   color: #000000;
+  }
+
+#footer a:link {
+   margin-right: 1%;
+   }
+
+#footer a:visited {
+   margin-right: 1%;
+   text-decoration: line-through;
+} 
+
+/* Linklist */
+
+#linklist {
+  background-color : #FFFFFF;
+    padding: 0;
+    margin: 1em;
+    position: absolute;
+    top: 3em;
+    left:0em;
+    font: 10pt/14pt tahoma;
+}
+
+  
+#linkList ul li a:link {
+   color: #808080;
+   }
+
+#linkList ul li a:visited {
+    color: #808080;
+ text-decoration: underline;
+   text-weight: italic;
+   }
+
+#linkList ul li a:active {
+   color: #808080;
+   text-decoration: underline;
+   }
+
+#linkList ul li a:hover {
+  color: #000080;
+  text-decoration: underline;
+   }

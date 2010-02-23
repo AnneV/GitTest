@@ -1,0 +1,51 @@
+<?php header('Content-Type: text/html; charset=utf-8'); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta content="French" name="Language"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Rck 'n Sals ... et plus</title>
+	<link rel="stylesheet" href="../../css/main.css" media="screen" type="text/css" />
+	<meta name="robots" content="none" />
+</head>
+
+
+<body>
+
+<div class="main">
+	<div id="top">
+      		<p class="p1"></p>
+	</div><!--top-->
+
+	<div id="container">
+		<h1>Rck 'n Sals ... et plus</h1>
+		<h2>Bienvenue sur le site créé par des élèves du cours de  </h2>
+		<div class="VertGras">   
+			<h2>   Rodolphe <img src="../../pages/2008-09/documents/TheTeacher.jpg" width="100" align="middle"> </h2>
+		</div>
+		<h3 >Téléchargement des vidéos et des descriptions des cours.</h3>		<br/>     
+<div class="VertGras">
+	Si vous constatez une anomalie sur le site, écrivez-moi : anne.varoquaux@gmail.com
+</div>
+ 	</div><!--container-->
+</div><!--main-->
+
+
+<?php
+  include('../../pages-affichage/menu.php');
+  include('../../pages-affichage/footer.php');
+?>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8568338-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
+
